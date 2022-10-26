@@ -1,0 +1,31 @@
+.article-section{
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    .section1{
+        width: 500px;
+        padding: 0 30px;
+        article{
+            display: flex;
+            flex-direction: column;
+            font-family: sans-serif;
+            padding: 10px;
+           .special{
+                color: #000;
+           }
+           .ordinary{
+            color: rgb(184, 184, 184);
+            font-weight: 600;
+            a{
+                color: rgb(255, 103, 21);
+                font-weight: 600;
+                text-decoration: none;
+            }
+            b{
+                color: rgb(146, 146, 146);
+            }
+           }
+        }
+    }
+}

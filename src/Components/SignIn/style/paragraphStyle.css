@@ -1,0 +1,47 @@
+.article-section {
+  padding: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+}
+
+.article-section .section1 {
+  width: 500px;
+  padding: 0 30px;
+}
+
+.article-section .section1 article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.article-section .section1 article .special {
+  color: #000;
+}
+
+.article-section .section1 article .ordinary {
+  color: #b8b8b8;
+  font-weight: 600;
+}
+
+.article-section .section1 article .ordinary a {
+  color: #ff6715;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.article-section .section1 article .ordinary b {
+  color: #929292;
+}
+/*# sourceMappingURL=paragraphStyle.css.map */
